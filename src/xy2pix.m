@@ -67,6 +67,7 @@ ipf = ipf + (x2pix(ix+1) + y2pix(iy+1))*scale;
 
 ipix = ipf + nFace*nSide^2;
 
-ipix = ipix+1; % MEALPix numbering
+% Is this a bug?
+%ipix = ipix+1; % MEALPix numbering
 
 return
