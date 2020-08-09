@@ -67,6 +67,6 @@ ipf = ipf + (x2pix(ix+1) + y2pix(iy+1))*scale;
 
 ipix = ipf + nFace*nSide^2;
 
-ipix = ipix; % MEALPix numbering
+%ipix = ipix; % MEALPix numbering
 
 return
